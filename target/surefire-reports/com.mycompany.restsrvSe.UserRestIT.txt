@@ -1,0 +1,141 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.restsrvSe.UserRestIT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 53.864 sec <<< FAILURE! - in com.mycompany.restsrvSe.UserRestIT
+testSimple(com.mycompany.restsrvSe.UserRestIT)  Time elapsed: 53.65 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+erredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635115	DeferredSave.webext.sc.lz4	DEBUG	Starting timer
+1509381635554	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635555	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635557	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635558	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635560	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635562	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635564	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635567	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635569	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635570	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635572	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635573	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635574	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635575	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635576	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635577	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635579	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635579	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635583	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635584	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635587	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635588	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635589	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635590	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635591	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635591	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635592	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635593	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635595	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635596	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635597	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635597	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635599	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635601	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635602	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635602	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635604	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635607	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635610	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635611	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635612	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635613	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635614	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635615	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635617	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635618	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635619	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635625	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635636	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635647	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635649	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635684	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381636898	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/56.0.2/20171024165158/WINNT_x86_64-msvc-x64/es-ES/release/Windows_NT%2010.0.0.0%20(x64)/default/default/update.xml
+1509381637447	addons.productaddons	INFO	Completed downloading document
+1509381638235	addons.productaddons	INFO	downloadXHR File download. status=200
+1509381638241	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Jose\AppData\Local\Temp\tmpaddon-936889
+1509381640127	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1509381640134	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+1509381640223	addons.productaddons	INFO	downloadXHR File download. status=200
+1509381640232	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Jose\AppData\Local\Temp\tmpaddon-f4ef33
+
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Kramerx', ip: '169.254.45.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: FirefoxDriver
+	at com.mycompany.restsrvSe.UserRestIT.testSimple(UserRestIT.java:25)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: 
+Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+erredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635115	DeferredSave.webext.sc.lz4	DEBUG	Starting timer
+1509381635554	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635555	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635557	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635558	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635560	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635562	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635564	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635567	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635569	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635570	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635572	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635573	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635574	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635575	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635576	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635577	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635579	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635579	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635583	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635584	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635587	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635588	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635589	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635590	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635591	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635591	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635592	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635593	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635595	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635596	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635597	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635597	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635599	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635601	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635602	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635602	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635604	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635607	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635610	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635611	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635612	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635613	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635614	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635615	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635617	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635618	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635619	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635625	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635636	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635647	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635649	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635684	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381636898	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/56.0.2/20171024165158/WINNT_x86_64-msvc-x64/es-ES/release/Windows_NT%2010.0.0.0%20(x64)/default/default/update.xml
+1509381637447	addons.productaddons	INFO	Completed downloading document
+1509381638235	addons.productaddons	INFO	downloadXHR File download. status=200
+1509381638241	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Jose\AppData\Local\Temp\tmpaddon-936889
+1509381640127	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1509381640134	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+1509381640223	addons.productaddons	INFO	downloadXHR File download. status=200
+1509381640232	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Jose\AppData\Local\Temp\tmpaddon-f4ef33
+
+	at com.mycompany.restsrvSe.UserRestIT.testSimple(UserRestIT.java:25)
+

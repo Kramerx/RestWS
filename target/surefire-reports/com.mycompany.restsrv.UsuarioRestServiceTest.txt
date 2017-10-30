@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.restsrv.UsuarioRestServiceTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 11.491 sec <<< FAILURE! - in com.mycompany.restsrv.UsuarioRestServiceTest
+testBuscar(com.mycompany.restsrv.UsuarioRestServiceTest)  Time elapsed: 9.895 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+	at com.mycompany.restsrv.UsuarioRestServiceTest.testBuscar(UsuarioRestServiceTest.java:69)
+
+testIngreso(com.mycompany.restsrv.UsuarioRestServiceTest)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<404>
+	at com.mycompany.restsrv.UsuarioRestServiceTest.testIngreso(UsuarioRestServiceTest.java:54)
+

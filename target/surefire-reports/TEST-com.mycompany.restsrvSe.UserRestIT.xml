@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.restsrvSe.UserRestIT" time="53.864" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="com.mycompany.restsrvSe.UserRestIT"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Jose\Google Drive\RestWS"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Jose\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.2\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\MinGW\bin;C:\Program Files (x86)\Bitvise SSH Client;C:\Users\Jose\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="jpda.listen" value="true"/>
+    <property name="jpda.address" value="63857"/>
+    <property name="user.home" value="C:\Users\Jose"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Jose"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="maven.surefire.debug" value="-Xdebug -Xrunjdwp:transport=dt_socket,server=n,address=63857"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_91\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.mycompany.restsrvSe.UserRestIT -DforkMode=once -Dmaven.surefire.debug=-Xdebug -Xrunjdwp:transport=dt_socket,server=n,address=63857 -Djpda.listen=true -Djpda.address=63857 -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 8.2\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="forkMode" value="once"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testSimple" classname="com.mycompany.restsrvSe.UserRestIT" time="53.65">
+    <error message="Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: &#10;erredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635115	DeferredSave.webext.sc.lz4	DEBUG	Starting timer&#10;1509381635554	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635555	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635557	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635558	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635560	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635562	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635564	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635567	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635569	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635570	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635572	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635573	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635574	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635575	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635576	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635577	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635579	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635579	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635583	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635584	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635587	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635588	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635589	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635590	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635591	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635591	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635592	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635593	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635595	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635596	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635597	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635597	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635599	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635601	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635602	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635602	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635604	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635607	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635610	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635611	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635612	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635613	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635614	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635615	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635617	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635618	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635619	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635625	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635636	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635647	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635649	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381635684	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1509381636898	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/56.0.2/20171024165158/WINNT_x86_64-msvc-x64/es-ES/release/Windows_NT%2010.0.0.0%20(x64)/default/default/update.xml&#10;1509381637447	addons.productaddons	INFO	Completed downloading document&#10;1509381638235	addons.productaddons	INFO	downloadXHR File download. status=200&#10;1509381638241	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Jose\AppData\Local\Temp\tmpaddon-936889&#10;1509381640127	DeferredSave.webext.sc.lz4	DEBUG	Starting write&#10;1509381640134	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded&#10;1509381640223	addons.productaddons	INFO	downloadXHR File download. status=200&#10;1509381640232	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Jose\AppData\Local\Temp\tmpaddon-f4ef33&#10;&#10;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;&#10;System info: host: &apos;Kramerx&apos;, ip: &apos;169.254.45.51&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;&#10;Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+erredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635115	DeferredSave.webext.sc.lz4	DEBUG	Starting timer
+1509381635554	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635555	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635557	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635558	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635560	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635562	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635564	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635567	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635569	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635570	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635572	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635573	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635574	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635575	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635576	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635577	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635579	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635579	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635583	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635584	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635587	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635588	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635589	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635590	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635591	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635591	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635592	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635593	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635595	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635596	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635597	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635597	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635599	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635601	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635602	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635602	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635604	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635607	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635610	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635611	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635612	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635613	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635614	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635615	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635617	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635618	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635619	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635625	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635636	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635647	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635649	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635684	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381636898	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/56.0.2/20171024165158/WINNT_x86_64-msvc-x64/es-ES/release/Windows_NT%2010.0.0.0%20(x64)/default/default/update.xml
+1509381637447	addons.productaddons	INFO	Completed downloading document
+1509381638235	addons.productaddons	INFO	downloadXHR File download. status=200
+1509381638241	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Jose\AppData\Local\Temp\tmpaddon-936889
+1509381640127	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1509381640134	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+1509381640223	addons.productaddons	INFO	downloadXHR File download. status=200
+1509381640232	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Jose\AppData\Local\Temp\tmpaddon-f4ef33
+
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Kramerx', ip: '169.254.45.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: FirefoxDriver
+	at com.mycompany.restsrvSe.UserRestIT.testSimple(UserRestIT.java:25)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: 
+Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+erredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635115	DeferredSave.webext.sc.lz4	DEBUG	Starting timer
+1509381635554	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635555	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635557	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635558	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635560	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635562	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635564	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635567	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635569	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635570	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635572	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635573	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635574	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635575	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635576	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635577	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635579	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635579	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635583	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635584	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635587	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635588	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635589	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635590	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635591	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635591	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635592	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635593	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635595	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635596	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635597	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635597	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635599	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635601	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635602	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635602	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635604	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635607	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635610	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635611	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635612	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635613	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635614	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635615	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635617	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635618	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635619	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635625	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635636	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635647	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635649	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635684	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381636898	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/56.0.2/20171024165158/WINNT_x86_64-msvc-x64/es-ES/release/Windows_NT%2010.0.0.0%20(x64)/default/default/update.xml
+1509381637447	addons.productaddons	INFO	Completed downloading document
+1509381638235	addons.productaddons	INFO	downloadXHR File download. status=200
+1509381638241	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Jose\AppData\Local\Temp\tmpaddon-936889
+1509381640127	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1509381640134	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+1509381640223	addons.productaddons	INFO	downloadXHR File download. status=200
+1509381640232	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Jose\AppData\Local\Temp\tmpaddon-f4ef33
+
+	at com.mycompany.restsrvSe.UserRestIT.testSimple(UserRestIT.java:25)
+</error>
+    <system-err><![CDATA[org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+erredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635115	DeferredSave.webext.sc.lz4	DEBUG	Starting timer
+1509381635554	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635555	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635557	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635558	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635560	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635562	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635564	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635567	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635569	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635570	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635572	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635573	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635574	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635575	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635576	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635577	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635579	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635579	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635583	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635584	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635587	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635588	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635589	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635590	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635591	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635591	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635592	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635593	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635595	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635596	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635597	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635597	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635599	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635601	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635602	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635602	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635604	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635607	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635610	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635611	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635612	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635613	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635614	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635615	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635617	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635618	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635619	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635625	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635636	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635647	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635649	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381635684	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1509381636898	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/56.0.2/20171024165158/WINNT_x86_64-msvc-x64/es-ES/release/Windows_NT%2010.0.0.0%20(x64)/default/default/update.xml
+1509381637447	addons.productaddons	INFO	Completed downloading document
+1509381638235	addons.productaddons	INFO	downloadXHR File download. status=200
+1509381638241	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Jose\AppData\Local\Temp\tmpaddon-936889
+1509381640127	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1509381640134	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+1509381640223	addons.productaddons	INFO	downloadXHR File download. status=200
+1509381640232	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Jose\AppData\Local\Temp\tmpaddon-f4ef33
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at com.mycompany.restsrvSe.UserRestIT.testSimple(UserRestIT.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]></system-err>
+  </testcase>
+</testsuite>

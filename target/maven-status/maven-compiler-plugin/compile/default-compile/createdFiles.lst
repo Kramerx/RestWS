@@ -1,0 +1,5 @@
+com\mycompany\entidad\User_.class
+com\mycompany\entidad\User.class
+com\mycompany\restsrv\UsuarioRestService.class
+com\mycompany\entidad\Users.class
+com\mycompany\restsrv\AppConfig.class
